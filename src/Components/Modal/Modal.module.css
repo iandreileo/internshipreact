@@ -1,0 +1,70 @@
+
+  .overlay {
+    height: 100%;
+    width: 100%;
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0,0, 0.3); 
+    overflow-x: hidden; 
+    transition: 0.5s; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .overlayDiv {
+      width: 50vw;
+      border-radius: 0.5rem;
+      background-color: rgb(248, 246, 242);
+  }
+
+  .closeBar{
+      text-align: right;
+        padding: 1rem;
+      font-size: 1.5rem;
+      color: #C0C0C0;
+      background-color: rgb(248, 246, 242);
+      border-radius: 0.5rem 0.5rem 0 0;
+  }
+
+  .closeBar span {
+      cursor: pointer;
+  }
+
+  .imageDiv {
+      width: 100%;
+  }
+
+  .imageDiv img {
+      width: 100%;
+      height: 20rem;
+  }
+
+  .title {
+      text-align: left;
+      padding: 0 2rem;
+  }
+
+  .paragraph {
+      padding: 0 2rem;
+      text-align: justify;
+      color: #C0C0C0;
+  }
+
+  .details {
+      padding: 0 2rem 2rem;
+      text-align: left;
+      display: flex;
+  }
+
+  .details img {
+      max-width: 4rem;
+      border-radius: 10rem;
+  }
+
+  .details p {
+      color: #C0C0C0;     
+      padding-left: 1rem;
+  }

@@ -1,0 +1,19 @@
+.principalDiv {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    width: 1200px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+    .box {
+      flex-direction: column;
+    }
+}
